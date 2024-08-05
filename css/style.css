@@ -7,3 +7,9 @@ body {
 h1, h2 {
     text-align: center;
 }
+
+.myPhoto {
+    width: 250px;
+    border: 5px solid blue;
+    padding: 20px;
+}
