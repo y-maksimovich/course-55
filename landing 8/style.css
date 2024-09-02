@@ -131,7 +131,7 @@ h2 {
   flex-grow: 100;
 }
 
-h4 {
+h3 {
   font-size: calc(1.1vw + 33px);
   font-weight: 700;
   line-height: 121%;
@@ -270,7 +270,7 @@ footer {
   text-align: center;
   position: relative;
 }
-.footerRight h4 {
+.footerRight h3 {
   font-size: calc(0.4vw + 24.3px);
   font-weight: 700;
   line-height: 136%;
