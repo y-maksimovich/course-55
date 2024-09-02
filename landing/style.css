@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "TT Hoves";
+}
+
+section {
+  padding: 0 120px;
+  margin-bottom: 160px;
+}
+.course_info_bg{
+  background-image: url(./image/html_css_js\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 30vw;
+  background-position: right 58px  top 121px;
+}
+.logo {
+  width: 295px;
+  margin-top: 37px;
+  margin-bottom: 85px;
+}
+.course_info {
+  display: flex;
+  gap: 161px;
+  margin-bottom: 76px;
+}
+.course_info div {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 21px;
+  line-height: 140%;
+}
+.subtitle {
+  font-size: 21px;
+  line-height: 140%;
+  font-weight: 700;
+}
+h1 {
+  font-family: "Chava";
+  font-size: calc(4.2vw + 26.25px);
+  line-height: 110%;
+  margin-bottom: 40px;
+}
+.jobInfo {
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 37.8px;
+  width: 930px;
+  margin-bottom: 20px;
+}
+.primary{
+  width: 328px;
+  background-color: #6e3aba;
+  color: white;
+  font-weight: 500;
+  padding: 20px 0;
+  border-radius: 12px;
+  border: 1px solid #6e3aba;
+  font-size: 18px;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+  align-items: center;
+  background-color: #6e3aba;
+  padding: 84px 0;
+}
+.sell {
+  font-size: 52px;
+  line-height: 117%;
+  color: white;
+}
+.sell_container {
+  display: flex;
+  gap: 85px;
+}
+
+.sell_card .time {
+  font-family: "Chava";
+  font-size: 174px;
+  line-height: 107%;
+}
+.sell_card span {
+  display: block;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 117%;
+  text-align: center;
+  margin-left: 10px;
+}
+.secondary {
+  border-radius: 12px;
+  background-color: #fff;
+  width: 328px;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 117%;
+  color: #6e3aba;
+  border: 1px solid #6e3aba;
+}
+
+h2 {
+  font-size: calc(1.8vw + 27px);
+  font-weight: 500;
+  line-height: 117%;
+  text-transform: uppercase;
+}
+
+.legendInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.legendPhoto {
+  display: block;
+  flex-basis: 200px;
+  flex-grow: 1;
+  max-width: 300px;
+}
+
+.legendContainer {
+  flex-basis: 250px;
+  flex-grow: 100;
+}
+
+h4 {
+  font-size: calc(1.1vw + 33px);
+  font-weight: 700;
+  line-height: 121%;
+}
+
+p {
+  font-size: calc(1.1vw + 14px);
+  line-height: 140%;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px calc(8.8vw - 23px);
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill img {
+  width: 36px;
+}
+
+.skill span {
+  font-size: 16px;
+  line-height: 22.4px;
+}
